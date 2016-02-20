@@ -5,4 +5,4 @@ Double click on the "run.html" file.
 Make sure it opens with a browser. To be completely sure, right click and select "open with"
 then select your browser.
 
-Please notice that this DOES NOT work in Microsoft Edge.
+Please notice that this DOES NOT work in Microsoft Edge. Chrome or Firefox is preferred. 
