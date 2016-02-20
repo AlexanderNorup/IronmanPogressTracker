@@ -1,0 +1,6 @@
+Make sure you extract the folder before using.
+
+Double click on the "run.html" file.
+
+Make sure it opens with a browser. To be completely sure, right click and select "open with"
+then select your browser.

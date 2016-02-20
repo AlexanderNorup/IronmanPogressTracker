@@ -1,0 +1,135 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    background: #dbcba3;
+    padding:50px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.active{
+    opacity: 1!important;
+}
+
+ul li{
+    cursor: pointer;
+    opacity: .4;
+    margin-right: 8px;
+    word-break: break-all;
+}
+
+ul li:hover{
+    opacity: .6;
+}
+
+ul{
+display: -ms-flexbox;
+    display: -webkit-flex;
+    display: -webkit-box;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    -webkit-box-align: start;
+    align-items: flex-start;
+    width: 33%;
+    float: left;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+ul li:last-of-type{
+}
+#wrapper{
+    width: 1200px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+img{
+    user-drag: none; 
+-webkit-user-select: none; 
+    -ms-user-select: none; 
+        user-select: none;
+-moz-user-select: none;
+-webkit-user-drag: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+h1{
+    
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 36px;
+    color:rgba(0,0,0,.70);
+}
+p{
+    text-align: center;
+}
+
+#reset{background:#eee; display: block; margin: 0 auto; width: 150px;margin-bottom: 30px; text-align: center; border: 1px solid #bbb; cursor: pointer; color: rgba(0,0,0,.74); height: 50px;}
+@media(max-width: 850px){
+    ul{
+        float: none;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    
+    ul li:last-of-type{
+        margin-right: 0;
+    }
+}

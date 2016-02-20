@@ -1,0 +1,461 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Ironman progress</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    
+  
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+    <div id="wrapper">
+        <h1>Ironman item progress tacker</h1>
+        <p style="margin-bottom: 50px;">You can mouse over an item to see what it is.</p>
+        <p style="margin-bottom: 50px;">You currently have: <span id="completed">0</span>/<span id="totalcompleted">244</span> completed</p>
+        
+        <button id="reset">Restart progress</button>
+        <div style="clear:both"></div>
+    <ul>
+        <li><img src="items/dragon/Dragon_plateskirt.png.png" class="item"></li>
+        <li><img src="items/dragon/Dragon_sq_shield.png.png" class="item"></li>
+        <li><img src="items/dragon/Dragon_2h_sword.png.png" class="item"></li>
+        <li><img src="items/dragon/Dragon_spear.png.png" class="item"></li>
+        <li><img src="items/dragon/Dragon_warhammer.png.png" class="item"></li>
+        <li><img src="items/dragon/Dragon_pickaxe_(or).png" class="item"></li>
+        <li><img src="items/dragon/Dragon_axe.png.png" class="item"></li>
+        <li><img src="items/boots/Dragon_boots.png.png" class="item"></li>
+    </ul>
+    <ul>
+        <li><img src="items/rings/Berserker_ring_(i).png" class="item"></li>
+        <li><img src="items/rings/Archers_ring_(i).png" class="item"></li>
+        <li><img src="items/rings/Seers_ring_(i).png" class="item"></li>
+        <li><img src="items/rings/Warrior_ring_(i).png" class="item"></li>
+        <li><img src="items/rings/Seers_ring_(i).png" class="item"></li>
+        <li><img src="items/rings/Mud_battlestaff.png" class="item"></li>
+    </ul>
+    <ul>
+      <li><img src="items/zulrah/Magic_fang.png" class="item"></li>  
+        <li><img src="items/zulrah/Toxic_blowpipe_(empty).png" class="item"></li>  
+        <li><img src="items/zulrah/Serpentine_helm.png.png" class="item"></li>  
+        <li><img src="items/zulrah/Tanzanite_helm.png.png" class="item"></li>  
+        <li><img src="items/zulrah/Magma_helm.png.png" class="item"></li>  
+    </ul>
+    <ul>
+        <li><img src="items/godbooks/Unholy_book.png.png" class="item"></li> 
+        <li><img src="items/godbooks/Holy_book.png.png" class="item"></li> 
+        <li><img src="items/godbooks/Book_of_balance.png.png" class="item"></li> 
+        <li><img src="items/godbooks/Book_of_darkness.png.png" class="item"></li> 
+        <li><img src="items/godbooks/Book_of_law.png.png" class="item"></li>
+        <li><img src="items/godbooks/Book_of_war.png.png" class="item"></li> 
+    </ul>
+    <ul>
+        <li><img src="items/barrows/Guthan's_helm.png.png" class="item"></li>
+        <li><img src="items/barrows/Guthan's_platebody.png.png" class="item"></li>
+        <li><img src="items/barrows/Guthan's_chainskirt.png.png" class="item"></li>
+        <li><img src="items/barrows/Guthan's_warspear.png.png" class="item"></li>
+    </ul>
+    <ul>
+        <li><img src="items/barrows/Karil's_coif.png.png" class="item"></li>
+        <li><img src="items/barrows/Karil's_leathertop.png.png" class="item"></li>
+        <li><img src="items/barrows/Karil's_leatherskirt.png.png" class="item"></li>
+        <li><img src="items/barrows/Karil's_crossbow.png.png" class="item"></li>
+    </ul>
+    <ul>
+        <li><img src="items/barrows/Torag's_helm.png.png" class="item"></li>
+        <li><img src="items/barrows/Torag's_platebody.png.png" class="item"></li>
+        <li><img src="items/barrows/Torag's_platelegs.png.png" class="item"></li>
+        <li><img src="items/barrows/Torag's_hammers.png.png" class="item"></li>
+    </ul>
+    <ul>
+        <li><img src="items/barrows/Verac's_helm.png.png" class="item"></li>  
+        <li><img src="items/barrows/Verac's_brassard.png.png" class="item"></li>  
+        <li><img src="items/barrows/Verac's_plateskirt.png.png" class="item"></li>  
+        <li><img src="items/barrows/Verac's_flail.png.png" class="item"></li>  
+    </ul>
+        <ul>
+        <li><img src="items/barrows/Dharok's_helm.png.png" class="item"></li>
+        <li><img src="items/barrows/Dharok's_platebody.png.png" class="item"></li>
+        <li><img src="items/barrows/Dharok's_platelegs.png.png" class="item"></li>
+        <li><img src="items/barrows/Dharok's_greataxe.png.png" class="item"></li>
+    </ul>
+        <div style="clear:both"></div>
+            <ul>
+        <li><img src="items/barrows/Ahrim's_hood.png.png" class="item"></li>   
+        <li><img src="items/barrows/Ahrim's_robetop.png.png" class="item"></li>   
+        <li><img src="items/barrows/Ahrim's_robeskirt.png.png" class="item"></li>   
+        <li><img src="items/barrows/Ahrim's_staff.png.png" class="item"></li>   
+    </ul>
+        <ul>
+        <li><img src="items/godwars/Armadyl_helmet.png.png" class="item"></li>
+        <li><img src="items/godwars/Armadyl_chestplate.png.png" class="item"></li>  
+        <li><img src="items/godwars/Armadyl_chainskirt.png.png" class="item"></li>  
+        <li><img src="items/godwars/Armadyl_crossbow.png.png" class="item"></li>  
+        <li><img src="items/godwars/Armadyl_godsword.png.png" class="item"></li>  
+    </ul>
+    <ul>
+        <li><img src="items/godwars/Bandos_boots.png" class="item"></li>
+        <li><img src="items/godwars/Bandos_chestplate.png" class="item"></li>
+        <li><img src="items/godwars/Bandos_tassets.png" class="item"></li>
+        <li><img src="items/godwars/Bandos_godsword.png.png" class="item"></li>
+    </ul>
+    <ul>
+        <li><img src="items/godwars/Saradomin's_light.png.png" class="item"></li>
+        <li><img src="items/godwars/Staff_of_the_dead.png.png" class="item"></li>
+        <li><img src="items/godwars/Saradomin_sword.png.png" class="item"></li>
+        <li><img src="items/godwars/Steam_battlestaff_(or).png" class="item"></li>
+        <li><img src="items/godwars/Zamorak_godsword.png.png" class="item"></li>
+        <li><img src="items/godwars/Zamorakian_spear.png.png" class="item"></li>
+        <li><img src="items/godwars/Saradomin_godsword.png.png" class="item"></li>
+    </ul>
+    <ul>
+        <li><img src="items/other/Abyssal_whip.png" class="item"></li>
+        <li><img src="items/other/Abyssal_dagger.png.png" class="item"></li>  
+        <li><img src="items/other/Abyssal_bludgeon.png" class="item"></li>  
+        <li><img src="items/other/Amulet_of_fury.png" class="item"></li>  
+        <li><img src="items/other/Abyssal_tentacle.png" class="item"></li>  
+    </ul>
+    <ul>
+        <li><img src="items/other/Occult_necklace.png" class="item"></li>
+        <li><img src="items/other/Trident_of_the_seas.png.png" class="item"></li>
+        <li><img src="items/other/Smoke_battlestaff.png.png" class="item"></li>
+        <li><img src="items/other/Dark_bow.png" class="item"></li>
+        <li><img src="items/other/Regen_bracelet.png" class="item"></li>  
+    </ul>
+    <ul>
+        <li><img src="items/infinity/Infinity_hat.png.png" class="item"></li>
+        <li><img src="items/infinity/Infinity_top.png.png" class="item"></li>
+        <li><img src="items/infinity/Infinity_bottoms.png.png" class="item"></li>
+        <li><img src="items/boots/Infinity_boots.png.png" class="item"></li>
+        <li><img src="items/infinity/Infinity_gloves.png.png" class="item"></li>
+        <li><img src="items/infinity/Master_wand.png" class="item"></li>
+        <li><img src="items/infinity/Mage's_book.png" class="item"></li>
+    </ul>
+    <ul>
+        <li><img src="items/shields/Dragonfire_shield.png" class="item"></li>
+        <li><img src="items/shields/Malediction_ward_(or).png" class="item"></li>
+        <li><img src="items/shields/Odium_ward_(or).png" class="item"></li>
+    </ul>
+    <ul>
+        <li><img src="items/boots/Primordial_boots.png.png" class="item"></li>
+        <li><img src="items/boots/Eternal_boots.png.png" class="item"></li>
+        <li><img src="items/boots/Pegasian_boots.png.png" class="item"></li> 
+    </ul>
+        <div style="clear:both"></div>
+    <ul>
+        <li><img src="items/boots/Robin_hood_hat.png" class="item"></li>
+        <li><img src="items/boots/Rangers'_tunic.png.png" class="item"></li>
+        <li><img src="items/boots/Holy_sandals.png.png" class="item"></li> 
+        <li><img src="items/boots/Wizard_boots.png.png" class="item"></li> 
+        <li><img src="items/boots/Ranger_boots.png" class="item"></li> 
+    </ul>
+    <ul>
+        <li><img src="items/void/Void_ranger_helm.png.png" class="item"></li>
+        <li><img src="items/void/Void_melee_helm.png.png" class="item"></li>
+        <li><img src="items/void/Void_mage_helm.png.png" class="item"></li>
+    </ul>
+    <ul>
+        <li><img src="items/void/Void_knight_top.png.png" class="item"></li>
+        <li><img src="items/void/Void_knight_robe.png.png" class="item"></li>
+        <li><img src="items/void/Void_knight_gloves.png.png" class="item"></li>
+        <li><img src="items/void/Void_knight_mace.png.png" class="item"></li>
+    </ul>
+    <ul>
+        <li><img src="items/void/Elite_void_top.png.png" class="item"></li>
+        <li><img src="items/void/Elite_void_robe.png.png" class="item"></li>
+    </ul>
+    <ul>
+        <li><img src="items/graceful/Graceful_hood.png.png" class="item"></li>
+        <li><img src="items/graceful/Graceful_top.png.png" class="item"></li>
+        <li><img src="items/graceful/Graceful_legs.png.png" class="item"></li>
+        <li><img src="items/graceful/Graceful_cape.png.png" class="item"></li>
+        <li><img src="items/graceful/Graceful_gloves.png.png" class="item"></li>
+        <li><img src="items/graceful/Graceful_boots.png.png" class="item"></li>
+    </ul>
+    <ul>
+        <li><img src="items/prospector/Prospector_helmet.png" class="item"></li>
+        <li><img src="items/prospector/Prospector_jacket.png.png" class="item"></li>
+        <li><img src="items/prospector/Prospector_legs.png.png" class="item"></li>
+        <li><img src="items/prospector/Prospector_boots.png.png" class="item"></li>
+        <li><img src="items/prospector/Gem_bag.png.png" class="item"></li>
+        <li><img src="items/prospector/Coal_bag.png.png" class="item"></li>
+    </ul>
+        <div style="clear:both"></div>
+    <ul>
+        <li><img src="items/farmers/Farmer's_strawhat.png.png" class="item"></li>
+        <li><img src="items/farmers/Farmer's_jacket.png.png" class="item"></li>  
+        <li><img src="items/farmers/Farmer's_boro_trousers.png.png" class="item"></li>
+        <li><img src="items/farmers/Farmer's_boots.png.png" class="item"></li>
+        <li><img src="items/farmers/Gricoller's_can.png.png" class="item"></li>
+        <li><img src="items/farmers/Seed_box.png.png" class="item"></li>  
+    </ul>
+    <ul>
+        <li><img src="items/other/Fighter_hat.png.png" class="item"></li> 
+        <li><img src="items/other/Fighter_torso.png" class="item"></li>  
+        <li><img src="items/other/Crystal_bow.png" class="item"></li>  
+        <li><img src="items/other/Broad_bolts_5.png.png" class="item"></li>  
+        <li><img src="items/other/Crystal_shield.png.png" class="item"></li>  
+        <li><img src="items/other/Crystal_halberd.png" class="item"></li>  
+    </ul>
+    <ul>
+        <li><img src="items/other/Slayer_helmet.png" class="item"></li>
+        <li><img src="items/other/Slayer_ring.png.png" class="item"></li>
+        <li><img src="items/other/Bones_to_peaches_icon.png" class="item"></li>
+        <li><img src="items/other/Herb_sack.png.png" class="item"></li>
+        <li><img src="items/other/Rune_pouch.png" class="item"></li>
+        <li><img src="items/other/Volcanic_abyssal_whip.png" class="item"></li>
+        <li><img src="items/other/Frozen_abyssal_whip.png" class="item"></li>
+    </ul>
+    <ul>
+        <li><img src="items/elitediary/Kandarin_headgear_4.png" class="item"></li>
+        <li><img src="items/elitediary/Desert_amulet_4.png.png" class="item"></li>
+        <li><img src="items/elitediary/Varrock_armour_4.png" class="item"></li>
+        <li><img src="items/elitediary/Morytania_legs_4.png" class="item"></li>
+        <li><img src="items/elitediary/Fremennik_sea_boots_4.png" class="item"></li>
+        <li><img src="items/elitediary/Karamja_gloves_4.png" class="item"></li>
+        <li><img src="items/elitediary/Ardougne_cloak_4.png.png" class="item"></li> 
+        <li><img src="items/elitediary/Wilderness_sword_4.png" class="item"></li> 
+        <li><img src="items/elitediary/Falador_shield_4.png.png" class="item"></li> 
+        <li><img src="items/elitediary/Explorer's_ring_4.png" class="item"></li> 
+        <li><img src="items/elitediary/Western_banner_4.png" class="item"></li> 
+    </ul>   
+    <ul id="scrolls">
+        <li><img src="items/scrolls/Clue_scroll_easy.png" title="Clue Scroll Easy" id="scroll1" class="item scroll"><span></span></li>
+        <li><img src="items/scrolls/Clue_scroll_medium.png" title="Clue Scroll Medium" id="scroll2" class="item scroll"><span></span></li>
+        <li><img src="items/scrolls/Clue_scroll_hard.png" title="Clue Scroll Hard" id="scroll3" class="item scroll"><span></span></li>
+        <li><img src="items/scrolls/Clue_scroll_elite.png" title="Clue Scroll Elite" id="scroll4" class="item scroll"><span></span></li>
+        <li><img src="items/scrolls/Clue_scroll.png" title="Clue Scroll Total" id="scrollTotal" class="item scroll"><span></span></li>
+    </ul>
+    <ul>
+        <li><img src="items/rare/Gilded_full_helm.png.png" class="item"></li>
+        <li><img src="items/rare/Gilded_platebody.png.png" class="item"></li>
+        <li><img src="items/rare/Gilded_platelegs.png.png" class="item"></li>
+        <li><img src="items/rare/Gilded_plateskirt.png.png" class="item"></li>
+        <li><img src="items/rare/Gilded_boots.png.png" class="item"></li>
+        <li><img src="items/rare/Gilded_kiteshield.png.png" class="item"></li>
+        <li><img src="items/rare/Gilded_scimitar.png.png" class="item"></li>
+    </ul>
+        <div style="clear:both"></div>
+    <ul>
+        <li><img src="items/rare/3rd_age_full_helmet.png.png" class="item"></li> 
+        <li><img src="items/rare/3rd_age_platebody.png.png" class="item"></li>
+        <li><img src="items/rare/3rd_age_platelegs.png.png" class="item"></li>
+        <li><img src="items/rare/3rd_age_kiteshield.png.png" class="item"></li> 
+    </ul>
+    <ul>
+        <li><img src="items/rare/3rd_age_mage_hat.png.png" class="item"></li>
+        <li><img src="items/rare/3rd_age_robe_top.png.png" class="item"></li>
+        <li><img src="items/rare/3rd_age_robe.png.png" class="item"></li>
+        <li><img src="items/rare/3rd_age_amulet.png.png" class="item"></li>
+    </ul>
+    <ul>
+        <li><img src="items/rare/3rd_age_range_coif.png.png" class="item"></li>
+        <li><img src="items/rare/3rd_age_range_top.png.png" class="item"></li> 
+        <li><img src="items/rare/3rd_age_range_legs.png.png" class="item"></li> 
+        <li><img src="items/rare/3rd_age_vambraces.png.png" class="item"></li> 
+    </ul>
+        <div style="clear:both"></div>
+    <ul>
+        <li><img src="items/rare/3rd_age_longsword.png.png" class="item"></li>
+        <li><img src="items/rare/3rd_age_wand.png.png" class="item"></li>
+        <li><img src="items/rare/3rd_age_bow.png.png" class="item"></li>
+    </ul>
+    <ul>
+        <li><img src="items/rare/Dark_infinity_colour_kit.png.png" class="item"></li>
+        <li><img src="items/rare/Dragon_chainbody_ornament_kit.png.png" class="item"></li>
+        <li><img src="items/rare/Dragon_full_helm_ornament_kit.png.png" class="item"></li>
+        <li><img src="items/rare/Dragon_plate+skirt_ornament_kit.png.png" class="item"></li>
+        <li><img src="items/rare/Dragon_sq_shield_ornament_kit.png.png" class="item"></li>
+        <li><img src="items/rare/Light_infinity_colour_kit.png.png" class="item"></li>
+        <li><img src="items/rare//Fury_ornament_kit.png.png" class="item"></li>
+    </ul>
+    <ul>
+        <li><img src="items/jars/Jar_of_dirt.png" class="item"></li>
+        <li><img src="items/jars/Jar_of_miasma.png" class="item"></li>
+        <li><img src="items/jars/Jar_of_sand.png" class="item"></li>
+        <li><img src="items/jars/Jar_of_souls.png" class="item"></li>
+        <li><img src="items/jars/Jar_of_swamp.png" class="item"></li>
+    </ul>
+        <div style="clear:both"></div>
+    <ul>
+        <li><img src="items/othercapes/Fire_cape.png" class="item"></li>
+        <li><img src="items/othercapes/Music_cape_(t).png.png" class="item"></li>
+        <li><img src="items/othercapes/Quest_point_cape.png.png" class="item"></li>
+        <li><img src="items/othercapes/Achievement_diary_cape_(t).png.png" class="item"></li>
+        <li><img src="items/othercapes/Max_cape.png" class="item"></li>
+    </ul>
+    <ul>
+        <li><img src="items/skillcapes/Attack_cape_(t).png" class="item"></li>
+        <li><img src="items/skillcapes/Strength_cape_(t).png" class="item"></li>
+        <li><img src="items/skillcapes/Defence_cape_(t).png" class="item"></li>
+        <li><img src="items/skillcapes/Hitpoints_cape_(t).png" class="item"></li>
+        <li><img src="items/skillcapes/Ranging_cape_(t).png" class="item"></li>
+        <li><img src="items/skillcapes/Magic_cape_(t).png" class="item"></li>
+    </ul>
+    <ul>
+        <li><img src="items/skillcapes/Prayer_cape_(t).png" class="item"></li>
+        <li><img src="items/skillcapes/Slayer_cape_(t).png" class="item"></li>
+        <li><img src="items/skillcapes/Runecraft_cape_(t).png" class="item"></li>
+        <li><img src="items/skillcapes/Construct._cape_(t).png" class="item"></li>
+        <li><img src="items/skillcapes/Agility_cape_(t).png" class="item"></li>
+        <li><img src="items/skillcapes/Herblore_cape_(t).png" class="item"></li>
+    </ul>
+        <div style="clear:both"></div>
+    <ul>
+        <li><img src="items/skillcapes/Thieving_cape_(t).png" class="item"></li>
+        <li><img src="items/skillcapes/Crafting_cape_(t).png" class="item"></li>
+        <li><img src="items/skillcapes/Fletching_cape_(t).png" class="item"></li>
+        <li><img src="items/skillcapes/Hunter_cape_(t).png" class="item"></li>
+        <li><img src="items/skillcapes/Mining_cape_(t).png" class="item"></li>
+        <li><img src="items/skillcapes/Construct._cape_(t).png" class="item"></li>
+    </ul>
+    <ul>
+        <li><img src="items/skillcapes/Fishing_cape_(t).png" class="item"></li>
+        <li><img src="items/skillcapes/Cooking_cape_(t).png" class="item"></li>
+        <li><img src="items/skillcapes/Woodcutting_cape_(t).png" class="item"></li>
+        <li><img src="items/skillcapes/Firemaking_cape_(t).png" class="item"></li>
+        <li><img src="items/skillcapes/Farming_cape_(t).png" class="item"></li>
+    </ul>
+    <ul>
+        <li><img src="items/pets/Abyssal_orphan.png.png" class="item"></li>
+        <li><img src="items/pets/Baby_chinchompa_(red).png.png" class="item"></li>
+        <li><img src="items/pets/Baby_mole.png.png" class="item"></li>
+        <li><img src="items/pets/Beaver.png.png" class="item"></li>
+        <li><img src="items/pets/Callisto_cub.png.png" class="item"></li>
+        <li><img src="items/pets/Chompy_chick.png.png" class="item"></li>
+    </ul>
+        <div style="clear:both"></div>
+    <ul>
+        <li><img src="items/pets/Hellpuppy.png.png" class="item"></li>
+        <li><img src="items/pets/Heron.png.png" class="item"></li>
+        <li><img src="items/pets/Kalphite_princess.png.png" class="item"></li>
+        <li><img src="items/pets/Pet_chaos_elemental.png.png" class="item"></li>
+        <li><img src="items/pets/Pet_dagannoth_prime.png.png" class="item"></li>
+        <li><img src="items/pets/Pet_dagannoth_rex.png.png" class="item"></li>
+    </ul>  
+    <ul>
+        <li><img src="items/pets/Pet_dagannoth_supreme.png.png" class="item"></li>
+        <li><img src="items/pets/Pet_dark_core.png.png" class="item"></li>
+        <li><img src="items/pets/Pet_general_graardor.png.png" class="item"></li>
+        <li><img src="items/pets/Pet_k'ril_tsutsaroth.png.png" class="item"></li>
+        <li><img src="items/pets/Pet_kraken.png.png" class="item"></li>
+        <li><img src="items/pets/Pet_kree'arra.png.png" class="item"></li>
+    </ul>
+    <ul>
+        <li><img src="items/pets/Pet_penance_queen.png.png" class="item"></li>
+        <li><img src="items/pets/Pet_smoke_devil.png.png" class="item"></li>
+        <li><img src="items/pets/Pet_snakeling.png.png" class="item"></li>
+        <li><img src="items/pets/Pet_zilyana.png.png" class="item"></li>
+        <li><img src="items/pets/Prince_black_dragon.png.png" class="item"></li>
+        <li><img src="items/pets/Rock_golem.png.png" class="item"></li>
+    </ul>
+    <ul>
+        <li><img src="items/pets/Scorpia's_offspring.png.png" class="item"></li>
+        <li><img src="items/pets/Tzrek-jad.png.png" class="item"></li>
+        <li><img src="items/pets/Venenatis_spiderling.png.png" class="item"></li>
+        <li><img src="items/pets/Vet'ion_jr..png.png" class="item"></li>
+    </ul>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script>
+String.prototype.replaceAll = function(search, replacement) {
+    var target = this;
+    return target.replace(new RegExp(search, 'g'), replacement);
+};
+ 
+ if(typeof(Storage) !== "undefined") {
+     $(".item").click(function(){
+        if($(this).hasClass("scroll")){
+            if($(this).attr("id") == "scrollTotal"){return false;}
+            var newCount = prompt("Enter new count for: " + $(this).attr("title"), $(this).parent().children("span").text());
+            if(isNaN(newCount) || newCount == null){
+                if(newCount == null){return false;} //Don't want to show error message here
+                alert("The following: '" + newCount + "' is not a number!");
+                return false;
+            }
+            if(newCount < 1){
+                localStorage.removeItem($(this).attr("id"));
+                location.reload();
+                return true;
+            }
+            localStorage.setItem($(this).attr("id"), newCount);
+            location.reload();
+            return true;
+           
+        }
+        if(!$(this).parent().hasClass("active")){
+       var id = $(this).attr("id");
+           
+        localStorage.setItem(id, id);
+        location.reload();
+        }else{
+            var id = $(this).attr("id");
+            localStorage.removeItem(id);
+            location.reload();
+        }
+    });
+   
+     var allImages = $("img");
+ 
+    for(var i = 0; i < allImages.length; i++){
+            if($(allImages[i]).hasClass("scroll")){
+                //Scroll
+               
+            }else{
+                $(allImages[i]).attr("title", $(allImages[i]).attr("src").split("/")[2].replaceAll(".png", "").replaceAll("_"," "));
+                $(allImages[i]).attr("id", "icon" + i + "");
+            }
+    }
+    var totalCount = 0;
+     for(var q = 1; q < 5; q++){
+        if(localStorage.getItem("scroll" + q) !== null){
+            if(parseInt(localStorage.getItem("scroll" + q)) >= 1){
+                $("#scroll" + q).parent().addClass("active");
+                totalCount += parseInt(localStorage.getItem("scroll" + q));
+                $("#scroll" + q).parent().children("span").text(localStorage.getItem("scroll" + q));
+            }
+        }
+    }
+   
+     if(totalCount >= 1){
+         $("#scrollTotal").parent().addClass("active");
+         $("#scrollTotal").parent().children("span").text(totalCount);
+     }
+     
+     
+     
+     
+    for(var i in localStorage)
+        {  
+            $(document).find("#" + i).parent().addClass("active");
+        }
+     
+     var totalcompleted = $(".item").length +5;
+     var completed = $(".active").length;
+     
+     $("#completed").text(completed);
+     $("#totalcompleted").text(totalcompleted);
+     
+     $("#reset").click(function(){
+        if(confirm("Are you sure you want to reset all of your progress? This can not be undone!")){
+            localStorage.clear();
+            location.reload();
+        }
+     });
+} else {
+    alert("Your browser doesn't support this program. Please update it.");
+}
+    
+</script>
+
+</body>
+</html>
